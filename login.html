@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: midnightblue;
+        }
+        #container{
+            position: absolute;
+            width: 30%;
+            height: 70%;
+            left: 35%;
+            top: 15%;
+            border: 1px solid pink;
+            background-color: aqua;
+            border-radius: 10%;
+        }
+        #inputFields{
+            position: relative;
+            width: 60%;
+            height: 70%;
+            left:20%;
+            top: 15%;
+            border: 1px solid greenyellow;
+            align-items: center;
+            background-color: pink;
+            border-radius: 10%;
+        }
+        .input p{
+           margin-left: 30px;
+        }
+        .input input{
+            margin-left: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="inputFields" class="input">
+            <form action="create-contact" method="post">
+            <p><b>Enter Your name</b></p>
+            <input type="text" placeholder="Please Enter your name" name="name" required>
+            <p><b>Enter your Phone Number</p>
+            <input type="number" placeholder="Please Enter your number"  name="phone" required>
+           <p><button type="submit">login</button></p> 
+        </form>
+        </div>
+    </div>
+</body>
+</html>
